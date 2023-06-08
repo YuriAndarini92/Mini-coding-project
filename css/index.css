@@ -104,6 +104,17 @@ padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.form-output {
-    border: 1px black;
+.form-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3px;
 }
+
+.form-output {
+    display: block;
+  width:400px;
+  height:150px;
+  border: 1px solid black;
+}
+
